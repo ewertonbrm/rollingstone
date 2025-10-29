@@ -1,11 +1,11 @@
-const CACHE_NAME = 'backloggd-pwa-cache-v1';
+const CACHE_NAME = 'rollingstone-pwa-cache-v1';
 // CAMINHOS AJUSTADOS
 const urlsToCache = [
-    '/backloggd/',
-    '/backloggd/index.html',
-    '/backloggd/manifest.json',
-    '/backloggd/icons/icon-192x192.png',
-    '/backloggd/icons/icon-512x512.png'
+    '/rollingstone/',
+    '/rollingstone/index.html',
+    '/rollingstone/manifest.json',
+    '/rollingstone/icons/icon-192x192.png',
+    '/rollingstone/icons/icon-512x512.png'
     // Adicione o caminho do seu GIF aqui se estiver local
     // '/backloggd/caminho/do/seu/gif.gif' 
 ];
