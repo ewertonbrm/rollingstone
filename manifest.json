@@ -1,19 +1,19 @@
 {
-    "name": "Backloggd",
-    "short_name": "Backloggd",
-    "description": "Acesso rápido ao Backloggd.",
-    "start_url": "/backloggd/index.html",
+    "name": "Rolling Stone",
+    "short_name": "Rolling Stone",
+    "description": "Acesso rápido à Rolling Stone.",
+    "start_url": "/rollingstone/index.html",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
     "icons": [
         {
-            "src": "/backloggd/icons/icon-192x192.png",
+            "src": "/rollingstone/icons/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/backloggd/icons/icon-512x512.png",
+            "src": "/rollingstone/icons/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
