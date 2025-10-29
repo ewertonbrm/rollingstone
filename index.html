@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Backloggd</title> <link rel="manifest" href="/backloggd/manifest.json">
+    <title>Rolling Stone Brasil</title> <link rel="manifest" href="/rollingstone/manifest.json">
     
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,10 +28,10 @@
 </head>
 <body>
 
-    <img src="/backloggd/icons/loading.gif" class="loading-gif">
+    <img src="/rollingstone/icons/loading.gif" class="loading-gif">
 
     <script>
-        const targetUrl = "https://backloggd.com";
+        const targetUrl = "https://rollingstone.com.br";
 
         function isPwaInstalled() {
             return window.matchMedia('(display-mode: standalone)').matches ||
@@ -51,7 +51,7 @@
 
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/backloggd/service-worker.js', { scope: '/backloggd/' })
+                navigator.serviceWorker.register('/rollingstone/service-worker.js', { scope: '/rollingstone/' })
                     .then(registration => {
                         console.log('Service Worker registrado e pronto para instalação do PWA.');
                         loadPWA();
