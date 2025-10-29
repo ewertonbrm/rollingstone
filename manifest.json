@@ -1,0 +1,21 @@
+{
+    "name": "Backloggd",
+    "short_name": "Backloggd",
+    "description": "Acesso rápido ao Backloggd.",
+    "start_url": "/backloggd/index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "/backloggd/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/backloggd/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
